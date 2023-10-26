@@ -1,16 +1,21 @@
 import 'dart:io';
 
-
-
 void main()
 
 {
   while(true){ 
-    
+
+
+      print("-HESAP MAKİNESİ UYGULAMASI-");
       print("Yapmak istediğiniz işlemi seçiniz.");
+      print ("toplama işlemi için : + ");
+      print("çıkarma işlemi için: - ");
+      print("çarpma işlemi için : * ");
+      print("bölme işlemi için : / ");
+
       String? islem  = stdin.readLineSync();
 
-      print("işlem yapmak istediğiniz iki sayı giriniz\n");
+      print("hesaplamak  istediğiniz iki sayı giriniz\n");
       int? sayi1 = int.parse(stdin.readLineSync()!);
       int? sayi2 = int.parse(stdin.readLineSync()!);
 
